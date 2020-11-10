@@ -85,7 +85,6 @@
 
 ![](images/testcase.png)
 
----
 <br>
 
 **What's Important?**
@@ -96,8 +95,15 @@
     class Test(unittest.TestCase):
 
         def test_case1(self):
-            
     ```
+
+----
+
+**How does ```pytest``` work?**
+- Pytest looks for files with ```test_*.py``` and ```_test*.py``` in the directory you run ```pytest``` in
+    - Remember that the ```*``` refers to wildcard expressions -- in this case it will look for files starting with ```test_``` and ```_test```
+
+- ```-v``` is the verbose flag
 
 ---
 **Notes**
