@@ -81,6 +81,9 @@
            return num1 / num2
     ```
 - This is after creating all required functionalities to PASS the test file
+- Running the tests again should yield:
+
+![](images/testcase.png)
 
 ---
 <br>
