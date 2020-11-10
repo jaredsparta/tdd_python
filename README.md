@@ -26,6 +26,9 @@
 - code file: ```simple_calc```
 - test file: ```test_simple_calc```
 
+<br>
+---
+
 **Example**
 - Install the required frameworks ```pip install pytest```
 - We then write the ```test_simple_calc``` file first:
@@ -78,4 +81,24 @@
            return num1 / num2
     ```
 - This is after creating all required functionalities to PASS the test file
+
+---
+<br>
+
+**What's Important?**
+- When writing the test class, you must inherit ```unittest.TestCase```
+- The methods in the test class must start with ```test_```
+- Choose correct assert methods based on what you want (possible asserts are at the bottom of the page)
+    ```python
+    class Test(unittest.TestCase):
+
+        def test_case1(self):
+            
+    ```
+
+---
+**Notes**
+
+- [Source](https://docs.python.org/3/library/unittest.html#assert-methods) 
+![](images/assert.png)    
 
